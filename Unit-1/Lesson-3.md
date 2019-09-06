@@ -8,15 +8,18 @@
 	
 		printf("hello, NCCL!\n");
 		
-		counter =  0;
-		while (counter < 10)
+		counter =  0; //属于给局部变量赋值
+		while (counter < 10) //更变循环条件，进行逻辑判断
 		{
-			counter++;
+			counter++; //
 			printf("counter = %d\n", counter);
 		}
 	
 		return 0;
 	}
+	
+	
+	
 
 ### do-while 用法
 	#include <stdio.h>
