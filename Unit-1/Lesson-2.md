@@ -39,6 +39,13 @@
 	
 		return 0;
 	}	
+###
+寻找入口
+看起始值
+objcopy -O binary -j .text text.bin
+hexdump -Ctext.bin
+代码的起始寻找，在连接器链接的时候也有，——start被起始地址之后调用的函数
+	
 
 ### 输出结果
 	input: 無
